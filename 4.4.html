@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background-color: grey;
+      }
+
+      .czerwony {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        display: inline-block;
+      }
+
+      .zolty {
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        display: inline-block;
+      }
+
+      .pomaranczowy {
+        width: 200px;
+        height: 200px;
+        background-color: orange;
+        display: inline-block;
+      }
+
+      .niebieski {
+        width: 608px;
+        height: 200px;
+        background-color: blue;
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--Jeju polowe googli przeszukalem i 
+      nie znalazlem a rozwiazanie jest tuz pod nosem.Dziekuje pieknie. 
+      Tylko znowu znalazlem problem w pomiedzy odstepami w inline block i znalazlem rozwiazanie 
+      ze zeby bylo to rowno musialem powiekszyc 4 div z 600px na 608px     -->
+
+    <div id="box">
+      <div class="czerwony"></div>
+      <div class="zolty"></div>
+      <div class="pomaranczowy"></div>
+      <div class="niebieski"></div>
+    </div>
+  </body>
+</html>
